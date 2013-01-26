@@ -17,6 +17,7 @@
 		1F148C4216B428950023DE9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F148C2216B428940023DE9A /* Cocoa.framework */; };
 		1F148C4A16B428950023DE9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F148C4816B428950023DE9A /* InfoPlist.strings */; };
 		1F148C4D16B428950023DE9A /* SimpleteappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F148C4C16B428950023DE9A /* SimpleteappTests.m */; };
+		1F811F1A16B440F500930532 /* hideme.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F811F1916B440F500930532 /* hideme.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F148C4916B428950023DE9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F148C4B16B428950023DE9A /* SimpleteappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleteappTests.h; sourceTree = "<group>"; };
 		1F148C4C16B428950023DE9A /* SimpleteappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleteappTests.m; sourceTree = "<group>"; };
+		1F811F1916B440F500930532 /* hideme.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = hideme.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		1F148C1316B428940023DE9A = {
 			isa = PBXGroup;
 			children = (
+				1F811F1916B440F500930532 /* hideme.icns */,
 				1F148C2816B428940023DE9A /* Simpleteapp */,
 				1F148C4516B428950023DE9A /* SimpleteappTests */,
 				1F148C2116B428940023DE9A /* Frameworks */,
@@ -227,6 +230,7 @@
 				1F148C2D16B428940023DE9A /* InfoPlist.strings in Resources */,
 				1F148C3316B428940023DE9A /* Credits.rtf in Resources */,
 				1F148C3916B428950023DE9A /* MainMenu.xib in Resources */,
+				1F811F1A16B440F500930532 /* hideme.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +450,7 @@
 				1F148C5216B428950023DE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F148C5316B428950023DE9A /* Build configuration list for PBXNativeTarget "SimpleteappTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +459,7 @@
 				1F148C5516B428950023DE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
